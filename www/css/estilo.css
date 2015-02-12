@@ -1,0 +1,241 @@
+/* Modificadores CSS para componentes del DOM y estilos de colocación */
+
+body {
+  background-color: #4C2E26;
+}
+
+.flyer {
+  margin-top: 15px;
+  /* display: flex; */
+  /* position: absolute; */
+}
+
+.img-responsive {
+  max-height: 690px;
+}
+
+
+/*Clases para el login*/
+
+@media (min-width: 387px) {
+  .marco {
+    border: 1px solid #252728;
+    height: 74px;
+    width: 134px;
+    position: relative;
+    top: -138px;
+    padding: 1px;
+    /*overflow: hidden;*/
+  }
+
+  .login {
+    height: 70px;
+    width: 130px;
+    top: -49px;
+}
+
+  .cabeceraLogin {
+    background-color: #252728;
+    color: #DDD;
+    font-size: .6em;
+    font-weight: bold;
+    height: 20%;
+  }
+
+  .cuerpoLogin {
+    background-color: #363637;
+    color: #DDD;
+    font-size: .6em;
+    font-weight: bold;
+    height: 60%;
+  }
+
+  .pieLogin {
+    background-color: #3D3E41;
+    font-size: .6em;
+    font-weight: bold;
+    height: 20%;
+  }
+
+  .cuerpoLogin input {
+    width: 130px;
+    height: 20px;
+    font-size: .6em;
+  }
+
+  .cuerpoLogin button {
+    width: 130px;
+    height: 20px;
+    font-size: .6em;
+  }
+}
+
+@media (min-width: 426px) {
+  .marco {
+    border: 1px solid #252728;
+    height: 74px;
+    width: 134px;
+  }
+
+  .login {
+    background-color: #252728;
+    height: 70px;
+    width: 130px;
+    position: relative;
+    top: -156px;
+  }
+
+  .login h3 {
+    font-size: .7em;
+  }
+}
+
+@media (min-width: 430px) {
+  .marco {
+    height: 72px;
+    width: 159px;
+  }
+
+  .login {
+    height: 68px;
+    width: 140px;
+    position: relative;
+    top: -160px;
+  }
+
+  .login h3 {
+    font-size: .7em;
+  }
+}
+
+@media (min-width: 440px) {
+  .marco {
+    height: 72px;
+    width: 159px;
+  }
+
+  .login {
+    height: 68px;
+    width: 140px;
+    position: relative;
+    top: -167px;
+  }
+
+  .login h3 {
+    font-size: .7em;
+  }
+}
+
+@media (min-width: 460px) {
+  .marco {
+    height: 72px;
+    width: 159px;
+  }
+
+  .login {
+    height: 68px;
+    width: 155px;
+    position: relative;
+    top: -174px;
+  }
+
+  .login h3 {
+    font-size: .7em;
+  }
+}
+
+@media (min-width: 480px) {
+  .marco {
+    height: 72px;
+    width: 159px;
+  }
+
+  .login {
+    height: 68px;
+    width: 155px;
+    position: relative;
+    top: -180px;
+  }
+
+  .login h3 {
+    font-size: .7em;
+  }
+}
+
+@media (min-width: 500px) {
+  .login {
+    height: 68px;
+    width: 163px;
+    position: relative;
+    top: -194px;
+  }
+
+  .login h3 {
+    font-size: .8em;
+  }
+}
+
+@media (min-width: 520px) {
+  .login {
+    height: 68px;
+    width: 168px;
+    position: relative;
+    top: -202px;
+  }
+
+  .login h3 {
+    font-size: .9em;
+  }
+}
+
+@media (min-width: 540px) {
+  .login {
+    height: 68px;
+    width: 172px;
+    position: relative;
+    top: -208px;
+  }
+
+  .login h3 {
+    font-size: .9em;
+  }
+}
+
+@media (min-width: 560px) {
+  .login {
+    height: 68px;
+    width: 176px;
+    position: relative;
+    top: -214px;
+  }
+
+  .login h3 {
+    font-size: .9em;
+  }
+}
+
+@media (min-width: 580px) {
+  .login {
+    height: 68px;
+    width: 180px;
+    position: relative;
+    top: -219px;
+}
+
+  .login h3 {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 600px) {
+  .login {
+    height: 68px;
+    width: 182px;
+    position: relative;
+    top: -220px;
+}
+
+  .login h3 {
+    font-size: 1em;
+  }
+}
