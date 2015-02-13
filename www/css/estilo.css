@@ -30,14 +30,17 @@ a:link, a:hover {
   margin-top: 20px;
 }
 body {
-    padding-bottom:40px;
+  padding-bottom:40px;
 }
 h1 {
-    margin:40px 0px 20px 0px;
-    color:#95c500;
-    font-size:28px;
-    line-height:34px;
-    text-align:center;
+  margin:40px 0px 20px 0px;
+  color:#95c500;
+  font-size:28px;
+  line-height:34px;
+  text-align:center;
+}
+input:-webkit-autofill {
+  background-color: #302F31;
 }
 [class*="col-"] {
     /* padding-top: 12px; */
