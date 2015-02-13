@@ -45,12 +45,12 @@
             <div class="item">
 <?php if (!$_POST) { ?>
               <div class="content login">
-                <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+                <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" autocomplete="off">
                   <div class="titulo">
                     <p>User Login</p>
                   </div>
                   <div class="inputs">
-                      <input type="text" class="form-control superior" name="username" id="username" placeholder="Username" required autofocus autocomplete="off">
+                      <input type="text" class="form-control superior" name="username" id="username" placeholder="Username" required autofocus>
                     <input type="password" class="form-control inferior" name="password" id="password" placeholder="Password" required>
                   </div>
                   <div class="boton">
