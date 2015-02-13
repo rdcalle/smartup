@@ -45,18 +45,29 @@
             <div class="item">
 <?php if (!$_POST) { ?>
               <div class="content login">
-                <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" autocomplete="off">
+                <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
                   <div class="titulo">
                     <p>User Login</p>
                   </div>
                   <div class="inputs">
-                      <input type="text" class="form-control superior" name="username" id="username" placeholder="Username" required autofocus>
-                    <input type="password" class="form-control inferior" name="password" id="password" placeholder="Password" required>
+                      <input type="text" class="form-control superior" name="username" id="username" placeholder="Username" required autofocus autocomplete="off">
+                    <input type="password" class="form-control inferior" name="password" id="password" placeholder="Password" required autocomplete="off">
                   </div>
                   <div class="boton">
                     <input type="submit" class="form-control boton" name="login" id="login" value="Login">
                   </div>
                 </form>
+                <script>
+                function clearAutofill() {
+                    if ( navigator.userAgent.toLowerCase().indexOf('chrome') >= 0 ) {
+                        $('input[autocomplete="off"]').each( function(){
+                            $(this).val('');
+                        });
+                    }
+                }
+
+                setTimeout(clearAutofill,500);
+                </script>
               </div>
 <?php } elseif ($bienvenida) { ?>
               <div class='content mensaje'>

@@ -39,9 +39,10 @@ h1 {
   line-height:34px;
   text-align:center;
 }
-input:-webkit-autofill {
-  background-color: #302F31;
+input:-webkit-autofill,input:focus:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
 }
+
 [class*="col-"] {
     /* padding-top: 12px; */
     /* padding-bottom:15px; */
